@@ -1,11 +1,13 @@
-intento = 3
+nombre = input("Escriba su nombre: ")
+
+intento = 5
 while intento > 0:
 
     password = input("Ingrese su clave: ")
 
-    if password =="1234":
+    if password =="3524":
 
-        print ("bienvenido")
+        print (f"bienvenido, {nombre}")
 
         break
     else:
@@ -15,4 +17,4 @@ while intento > 0:
         print(f"Intento fallido. Tienes, {intento} intentos restantes")
 
         if intento == 0:
-            print("Acceso denegado")
+            print("Porfavor comuniquese con nuestro call center")
